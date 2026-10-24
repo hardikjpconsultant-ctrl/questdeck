@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>QuestDeck</title>
+<meta name="description" content="Turn any product deck into a learning game: animated explainers, quick tasks, a map that opens up, and leaderboards.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/css/app.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23171A47'/%3E%3Cpath d='M18 44l14-24 14 24z' fill='%23FFD04D'/%3E%3C/svg%3E">
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="#/"><span class="mark" aria-hidden="true"></span><span id="siteName">QuestDeck</span></a>
+  <nav class="tabs" id="tabs" aria-label="Main"></nav>
+  <span class="sp"></span>
+  <span class="pts" id="pts" hidden></span>
+  <button class="iconb" id="themeb" type="button" aria-label="Switch theme"></button>
+</div></header>
+<main class="wrap" id="view" tabindex="-1"></main>
+<nav class="bnav" id="bnav" aria-label="Main"></nav>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="config.js"></script>
+<script src="assets/vendor/jszip.min.js"></script>
+<script src="assets/js/store.js"></script>
+<script src="assets/js/pptx.js"></script>
+<script src="assets/js/generator.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/admin.js"></script>
+</body>
+</html>
